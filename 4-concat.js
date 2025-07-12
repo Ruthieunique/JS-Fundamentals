@@ -1,4 +1,4 @@
-const firstArg = process.argv[2];
-const secondArg = process.argv[3];
+const arg1 = process.argv[2];
+const arg2 = process.argv[3];
 
-console.log(${firstArg} is ${secondArg});
+console.log(`${arg1} is ${arg2}`);
